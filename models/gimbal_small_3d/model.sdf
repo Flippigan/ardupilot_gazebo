@@ -61,10 +61,11 @@
         </material>
       </visual>
       <collision name="yaw_collision">
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://ardupilot_gazebo/models/gimbal_small_3d/meshes/yaw_arm.dae</uri>
-          </mesh>
+          <box>
+            <size>0.03 0.08 0.02</size>
+          </box>
         </geometry>
       </collision>
     </link>
@@ -109,10 +110,11 @@
         </material>
       </visual>
       <collision name="roll_collision">
+        <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://ardupilot_gazebo/models/gimbal_small_3d/meshes/roll_arm.dae</uri>
-          </mesh>
+          <box>
+            <size>0.08 0.03 0.02</size>
+          </box>
         </geometry>
       </collision>
     </link>
@@ -160,9 +162,9 @@
       <collision name="pitch_collision">
         <pose>0 0 0 0 0 0</pose>
         <geometry>
-          <mesh>
-            <uri>package://ardupilot_gazebo/models/gimbal_small_3d/meshes/camera_enclosure.dae</uri>
-          </mesh>
+          <box>
+            <size>0.06 0.06 0.08</size>
+          </box>
         </geometry>
       </collision>
       <visual name="camera_visual">
@@ -189,9 +191,9 @@
         </geometry>
       </collision>
       <sensor name="camera" type="camera">
-        <gz_frame_id>pitch_link</gz_frame_id>
         <pose>0 0 0 -1.57 -1.57 0</pose>
         <camera>
+          <frame_id>pitch_link</frame_id>
           <horizontal_fov>2.0</horizontal_fov>
           <image>
             <width>640</width>

@@ -117,18 +117,18 @@
 
     <include>
       <uri>model://iris_with_gimbal_9002</uri>
-      <name>iris_9002</name>
-      <pose degrees="true">0 0 0 0 0 90</pose>
+      <name>iris_with_gimbal_9002</name>
+      <pose degrees="true">-1 0 0.195 0 0 90</pose>
     </include>
     <include>
       <uri>model://iris_with_gimbal_9012</uri>
-      <name>iris_9012</name>
-      <pose degrees="true">0 0 0 0 0 0</pose>
+      <name>iris_with_gimbal_9012</name>
+      <pose degrees="true">0 0 0.195 0 0 90</pose>
     </include>
     <include>
       <uri>model://iris_with_gimbal_9022</uri>
-      <name>iris_9022</name>
-      <pose degrees="true">0 0 0 0 0 0</pose>
+      <name>iris_with_gimbal_9022</name>
+      <pose degrees="true">1 0 0.195 0 0 90</pose>
     </include>
 
   </world>
