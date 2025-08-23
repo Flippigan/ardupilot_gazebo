@@ -115,20 +115,60 @@
       <pose degrees="true">-29 545 0 0 0 363</pose>
     </include>
 
+    <!-- Vehicle 1 (iris_9002) - Top-left -->
     <include>
       <uri>model://iris_with_gimbal_9002</uri>
-      <name>iris_with_gimbal_9002</name>
-      <pose degrees="true">-1 0 0.195 0 0 90</pose>
+      <name>iris_9002</name>
+      <pose degrees="true">-2 -2 0.195 0 0 90</pose>
     </include>
+    
+    <!-- Vehicle 2 (iris_9012) - Top-right -->
     <include>
       <uri>model://iris_with_gimbal_9012</uri>
-      <name>iris_with_gimbal_9012</name>
-      <pose degrees="true">0 0 0.195 0 0 90</pose>
+      <name>iris_9012</name>
+      <pose degrees="true">2 -2 0.195 0 0 90</pose>
     </include>
+    
+    <!-- Vehicle 3 (iris_9022) - Bottom-left -->
     <include>
       <uri>model://iris_with_gimbal_9022</uri>
-      <name>iris_with_gimbal_9022</name>
-      <pose degrees="true">1 0 0.195 0 0 90</pose>
+      <name>iris_9022</name>
+      <pose degrees="true">-2 2 0.195 0 0 90</pose>
+    </include>
+    
+    <!-- Vehicle 4 (iris_9032) - Bottom-right -->
+    <include>
+      <uri>model://iris_with_gimbal_9032</uri>
+      <name>iris_9032</name>
+      <pose degrees="true">2 2 0.195 0 0 90</pose>
+    </include>
+    
+    <!-- Vehicle 5 (iris_9042) - Far top-left -->
+    <include>
+      <uri>model://iris_with_gimbal_9042</uri>
+      <name>iris_9042</name>
+      <pose degrees="true">-4 -4 0.195 0 0 90</pose>
+    </include>
+    
+    <!-- Vehicle 6 (iris_9052) - Far top-right -->
+    <include>
+      <uri>model://iris_with_gimbal_9052</uri>
+      <name>iris_9052</name>
+      <pose degrees="true">4 -4 0.195 0 0 90</pose>
+    </include>
+    
+    <!-- Vehicle 7 (iris_9062) - Far bottom-left -->
+    <include>
+      <uri>model://iris_with_gimbal_9062</uri>
+      <name>iris_9062</name>
+      <pose degrees="true">-4 4 0.195 0 0 90</pose>
+    </include>
+    
+    <!-- Vehicle 8 (iris_9072) - Far bottom-right -->
+    <include>
+      <uri>model://iris_with_gimbal_9072</uri>
+      <name>iris_9072</name>
+      <pose degrees="true">4 4 0.195 0 0 90</pose>
     </include>
 
   </world>
