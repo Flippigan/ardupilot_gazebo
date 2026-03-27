@@ -8,3 +8,15 @@ MOT_PWM_MAX      1900
 
 # No gimbal mount
 MNT1_TYPE        0
+
+# Precision landing (companion computer via MAVLink)
+PLND_ENABLED    1
+PLND_TYPE       1
+PLND_EST_TYPE   0
+PLND_ALT_MAX    8
+PLND_ALT_MIN    0.5
+PLND_STRICT     1
+PLND_RET_MAX    3
+PLND_TIMEOUT    4
+PLND_ORIENT     25
+PLND_LAG        0.05
