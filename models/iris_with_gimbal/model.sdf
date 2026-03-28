@@ -224,6 +224,12 @@
       <!-- Sensors -->
       <imuName>imu_link::imu_sensor</imuName>
 
+      <sensor>
+        <type>lidar</type>
+        <index>1</index>
+        <topic>/rangefinder</topic>
+      </sensor>
+
       <!--
           incoming control command [0, 1]
           so offset it by 0 to get [0, 1]
