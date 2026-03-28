@@ -246,6 +246,12 @@
       <!-- Sensors -->
       <imuName>imu_link::imu_sensor</imuName>
 
+      <sensor>
+        <type>lidar</type>
+        <index>1</index>
+        <topic>/rangefinder</topic>
+      </sensor>
+
       <control channel="0">
         <jointName>rotor_0_joint</jointName>
         <useForce>1</useForce>
