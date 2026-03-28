@@ -20,3 +20,9 @@ PLND_RET_MAX    3
 PLND_TIMEOUT    4
 PLND_ORIENT     25
 PLND_LAG        0.05
+
+# Rangefinder (SITL simulated, reads from Gazebo via JSON)
+RNGFND1_TYPE     100
+RNGFND1_MIN_CM   10
+RNGFND1_MAX_CM   3000
+RNGFND1_ORIENT   25
