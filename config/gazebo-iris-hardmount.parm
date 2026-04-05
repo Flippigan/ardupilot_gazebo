@@ -15,14 +15,20 @@ PLND_TYPE       1
 PLND_EST_TYPE   0
 PLND_ALT_MAX    8
 PLND_ALT_MIN    0.5
-PLND_STRICT     1
+PLND_STRICT     0
 PLND_RET_MAX    3
 PLND_TIMEOUT    4
 PLND_ORIENT     25
 PLND_LAG        0.05
+
+# Hold heading during guided velocity commands (prevents yaw hunting)
+WP_YAW_BEHAVIOR  0
 
 # Rangefinder (SITL simulated, reads from Gazebo via JSON)
 RNGFND1_TYPE     100
 RNGFND1_MIN_CM   10
 RNGFND1_MAX_CM   3000
 RNGFND1_ORIENT   25
+
+# Stream rate: ensure RANGEFINDER messages are sent (EXTRA3 stream)
+SR0_EXTRA3       10
